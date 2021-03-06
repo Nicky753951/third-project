@@ -1,0 +1,47 @@
+.priority{
+    min-height: 473px;
+    padding: 71px 0 82px 0;
+    background-color:#F6F6F6;
+
+    &__table{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__about {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    &__one {
+        width: 270px;
+        text-align: center;
+        img{
+        display: block;
+        margin: 0 auto 35px auto;
+        }
+
+    }
+
+    &__head {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0D0D0D;
+    }
+
+    &__head2 {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        span{
+            text-transform: uppercase;
+            color: $main-color;
+            text-decoration: underline;
+        }
+
+    }
+
+
+}
