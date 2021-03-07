@@ -1,10 +1,10 @@
 @media (max-width:992px) {
     .promo{
-        padding: 20px 30px 93px 30px;
-    }
+        padding: 20px 40px 93px 40px;
+        background-position: 45% 20%;
 
     .priority {
-        padding: 30px 30px 73px 30px;
+        padding: 71px 30px 73px 30px;
         &__table{
             flex-direction: column;
             align-items: center;
@@ -27,7 +27,10 @@
 
 @media (max-width:768px) {
     .promo{
-        padding: 20px 30px 73px 30px; 
+        display: flex;
+        justify-content: center;
+        padding: 20px 40px 53px 40px; 
+        background-position: 35% 20%;
 
     .header {
         &__official{
@@ -43,6 +46,7 @@
         margin-bottom: 10px;
     }
 
+
     &__subheader {
         display: block;
         margin: 0 auto; 
@@ -54,6 +58,11 @@
 }
     .priority {
         padding: 30px 30px 73px 30px;
+
+        &__about{
+            margin-top: 43px;
+        }
+
         &__table{
             flex-direction: column;
             align-items: center;
@@ -77,14 +86,17 @@
 @media (max-width:576px) {
 
     .promo{
-        padding: 20px 10px 93px 10px;
+        padding: 20px 20px 93px 20px;
         &__header {
-            font-size: 36px;
+            display: block;
+            margin: 0 auto;
+            font-size: 23px;
             text-align: center;
+            margin-bottom: 10px;
         }
 
         &__subheader {
-            font-size: 23px;
+            font-size: 18px;
             text-align: center;
         }
 
@@ -99,6 +111,7 @@
         &__icon {
             text-align: center;
             margin-bottom: 25px;
+            font-size: 13px;
             img{
                 display: block;
                 margin-bottom: 10px;
@@ -118,9 +131,19 @@
             margin: 0 auto;
             outline: none;
         }
-    }
+    } 
+
 
     .header {
+        img{
+            width: 70%;
+        }
+        display: flex;
+        justify-content: space-between;
+
+        &__logo{
+            width: 190px;
+        }
 
 
         &__official{
@@ -129,14 +152,17 @@
 
         &__phone {
             margin:0;
-            font-size: 13px;
+            font-size: 11px;
+            width: 100px;
+            margin-right: 20px;
         }
 
         .button{
-            width: 120px;
+            width: 105px;
             height: 30px;
             outline:none;
-            font-size: 11px;
+            font-size: 9px;
+            margin-right: 20px;
         }
 
         &__logo {
@@ -147,4 +173,13 @@
         }
     }
 
+    .priority {
+        padding: 71px auto 73px ;
+
+        &__one{
+            width: 280px;
+        }
+    }
+
+}
 }
