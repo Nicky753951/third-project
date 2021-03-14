@@ -1,0 +1,38 @@
+.feedback {
+	max-height: 1000px;
+
+	&__client {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 60px ;
+	}
+
+	&__data {
+		width: 670px;
+
+	}
+
+	&__name {
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	&__mar {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;		
+	}
+
+	&__descr {
+		margin-top: 10px;
+		font-weight: 300;
+		font-size: 16px;
+	}
+
+	&__tab {
+		margin-top: 5px;
+	}
+
+
+}
