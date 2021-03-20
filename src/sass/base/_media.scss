@@ -2,42 +2,106 @@
 
     .promo{
         padding: 20px 40px 93px 40px;
-        background-position: 45% 20%;}
+        background-position: 45% 20%;
 
-    // .priority {
-    //     padding: 71px 30px 73px 30px;
-    //     &__table{
-    //         flex-direction: column;
-    //         align-items: center;
-    //         margin-top: 30px;
-    //     }
+        &__header {
+        font-size: 40px;
+        line-height:40px;
+        }
+        &__subheader {
+        font-size:  21px;
+        line-height: 21px;
+        }
+        .button_main {
+            width: 275px
+        }
+    }
 
-    //     &__one{
-    //         width: 300px;
-    //     }
-
-    //     &__head2{
-    //         margin: 10px 0 20px 0;
-    //     }
-
-    //     img{
-    //         margin-bottom: 20px;
-    //     }
-    //  }
-.priority{
-    padding: 71px 40px 73px 40px;
-    &__one {
+    .priority{
+        padding: 71px 40px 73px 40px;
+        &__one {
         width: 220px;
     }
 
-    &__head2 {
+        &__head2 {
         font-size: 13px;
     }
 
-    &__head {
+        &__head {
         font-size: 17px;
     }
 }
+.carousel {
+    &__inner {
+    max-width: 100%;
+    }
+    .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+        button {
+        margin: 5px 3px;
+        border: none;
+        background: $main-color;
+        color: #fff;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        }
+    }
+}
+    .catalog {
+        .catalog__content {
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+        .catalog-item {
+            margin: 0 10px 20px 10px;
+        }
+    }
+
+    .feedback {
+        padding-right: 20px;
+        padding-left: 20px;
+        .feedback__data {
+            width: 600px;
+            margin-left: 20px;
+        }
+        .feedback__client {
+            justify-content: center;
+            img {
+                width: 120px;
+            }
+        }
+        .feedback__descr {
+            font-size: 14px;
+        }
+    }
+
+    .footer {
+        .footer__adr {
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+        .footer__phone {
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+        .footer__info {
+            width: 350px;
+            height: 200px;
+            padding: 35px 50px 35px 50px;
+        }
+        .footer__social-item {
+            width: 35px;
+            height: 35px;
+        }
+
+        .place_card {
+            display: none;
+        }
+    }
+
 
 
     .consultation {
@@ -61,6 +125,9 @@
 }
 
 }
+
+
+
 
 @media (max-width:768px) {
     .promo{
@@ -135,6 +202,22 @@
 
     }
 
+    }
+
+    .carousel { 
+        &__inner {      
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        img {
+            max-width: 100%;
+        }     
+    }
+
+    .catalog {
+        .catalog__tab {
+        width: 210px;
+        }
     }
 
 }
@@ -257,4 +340,17 @@
         }
     }
 
+    .catalog {
+        .catalog__tab {
+            width: 86px;
+            font-size: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+        }
+    }
+
+
 }
+
