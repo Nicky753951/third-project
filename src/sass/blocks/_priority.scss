@@ -22,8 +22,16 @@
         display: block;
         margin: 0 auto 35px auto;
         }
-
     }
+
+    &__heartanime {
+        animation: heartbeat 2s ease infinite;
+    }
+
+
+
+
+
 
     &__head {
         font-size: 18px;
