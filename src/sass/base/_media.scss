@@ -343,11 +343,23 @@
     .catalog {
         .catalog__tab {
             width: 86px;
-            font-size: 10px;
+            font-size: 9px;
         }
 
         .title {
-            font-size: 18px;
+            font-size: 32px;
+        }
+    }
+
+    .overlay {
+        .modal {
+            width: 320px;
+        }
+        .modal__close {
+            right: -30px;
+        }
+        .feed-form_mt25 {
+            width: 100%;
         }
     }
 
